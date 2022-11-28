@@ -273,7 +273,8 @@ def login(request, user, backend=None):
 ## テンプレートをmanage.pyと同階層にするとき
 
 mysite/settings.py
-```TEMPLATES = [
+```Python
+TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
         "DIRS": [BASE_DIR / "templates"], #ここでtemplatesフォルダの場所を指定
